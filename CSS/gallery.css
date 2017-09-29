@@ -1,0 +1,9 @@
+.bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 50px;
+    color: white
+}

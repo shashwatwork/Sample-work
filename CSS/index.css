@@ -1,0 +1,80 @@
+
+@font-face {
+    font-family: 'Bungee Inline';
+    src:url('../registration/fonts/webfonts_AR-DESTINE/AR-DESTINE.ttf.woff') format('woff'),
+        url('../fonts/webfonts_AR-DESTINE/AR-DESTINE.ttf.svg#AR-DESTINE') format('svg'),
+        url('../fonts/webfonts_AR-DESTINE/AR-DESTINE.ttf.eot'),
+        url('../fonts/webfonts_AR-DESTINE/AR-DESTINE.ttf.eot?#iefix') format('embedded-opentype'); 
+}
+body{
+    font-family: 'Droid Serif', serif;
+    text-shadow: 1px 1px 1px black;
+    background-color:#edeff2;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color:#edeff2;
+  border:#edeff2;
+  color: skyblue;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      color: #edeff2
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color:#edeff2 !important;
+  }
+}
+.img {
+    max-width: 100%;
+    height: auto;
+}
+h1{
+    padding-bottom: 100 %;
+}
+
